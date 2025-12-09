@@ -133,6 +133,7 @@ document.addEventListener("DOMContentLoaded", () => {
         else if(cmd == "certificates")
         {
              response.innerHTML = `
+             <span class="normal">Data Science for Engineers – NPTEL <br>
             <span class="normal">Deep Learning – NPTEL <br>
             Cyber Security & Ethical Hacking – Techmaghi <br>
             Python – HackerRank <br>
@@ -248,4 +249,5 @@ document.addEventListener("DOMContentLoaded", () => {
         addprompt();
     }
     printline();
+
 })
